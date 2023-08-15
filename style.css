@@ -1,0 +1,98 @@
+/* Global styles */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner styles */
+#banner {
+    background-color: #1E90FF;
+    color: white;
+    padding: 20px;
+}
+
+#banner h1 {
+    margin: 0;
+}
+
+/* Introduction styles */
+#introduction {
+    padding: 20px;
+    background-color: #FFEB3B;
+    border: 1px solid #FBC02D;
+    border-radius: 5px;
+}
+
+#introduction h2 {
+    color: #1E90FF;
+}
+
+/* What do we do styles */
+#what-do-we-do {
+    padding: 20px;
+    background-color: #F44336;
+    border: 1px solid #D32F2F;
+    border-radius: 5px;
+}
+
+#what-do-we-do h2 {
+    color: white;
+}
+
+#what-do-we-do li {
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Requirements styles */
+#requirements {
+    padding: 10px;
+    background-color: #9C27B0;
+    border: 1px solid #7B1FA2;
+    border-radius: 5px;
+}
+
+#requirements h2 {
+    color: white;
+}
+
+#requirements li {
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Register styles */
+#register {
+    padding: 10px;
+    background-color: #4CAF50;
+    border: 1px solid #388E3C;
+    border-radius: 5px;
+}
+
+#register h2 {
+    color: white;
+}
+
+#register li {
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
