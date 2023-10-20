@@ -1,4 +1,3 @@
-/* Global styles */
 body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
@@ -6,35 +5,49 @@ body {
     color: white;
 }
 
-/* Banner styles */
-#banner {
-    background-color: #1E90FF;
-    color: white;
-    padding: 20px;
+body a {
+    color: #27ecec;
 }
 
+body a:visited {
+    color: #6cd7d7;
+}
 
-/* Introduction styles */
+#banner {
+    background-color: #1E90FF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#banner img {
+    width: 7%;
+    height: 7%;
+    margin-right: 30px;
+}
+
+#banner h1 {
+    font-size: 50px;
+}
+
 #introduction {
     padding: 20px;
     background-color: #ff6400;
 }
 
-/* What do we do styles */
 #what-do-we-do {
     padding: 20px;
     background-color: #F44336;
 }
 
-
-/* Requirements styles */
 #requirements {
-    padding: 10px;
+    padding: 20px;
     background-color: #9C27B0;
 }
 
 #register {
-    padding: 10px;
+    padding: 20px;
     background-color: #4CAF50;
 }
 
