@@ -14,11 +14,12 @@ body a:visited {
 }
 
 #banner {
-    background-color: #1E90FF;
+    background-color: #e0edf5;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 10px 20px;
+    color: #0d2633;
 }
 
 #banner img {
